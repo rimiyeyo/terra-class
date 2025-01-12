@@ -1,10 +1,10 @@
 # 인증서 생성
 resource "aws_acm_certificate" "cert" {
-  domain_name       = "*.rimiyeyo.shop"
+  domain_name       = "*.rimiyeyo.store"
   validation_method = "DNS"
 
   tags = {
-    Name = "rimiyeyo.shop"
+    Name = "rimiyeyo.store"
   }
 
   lifecycle {
